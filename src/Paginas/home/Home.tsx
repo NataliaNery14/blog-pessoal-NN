@@ -1,10 +1,13 @@
-import React from "react";
-import'./home.css';
+import React from 'react';
+import './Home.css';
 
-function Home () {
-    return(
-        <h1>Pagina Home</h1>
+function Home(){
+    return (
+        <>
+            <h1>Home</h1>
+            <img src="https://i.imgur.com/H88yIo2.png" alt="Imagem Tela Inicial" width="500" height="500"/>
+        </>
     );
 }
 
-export {Home};
+export default Home;
